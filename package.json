@@ -1,0 +1,24 @@
+{
+  "name": "arbitrage-trading-bot",
+  "version": "1.0.0",
+  "description": "Flashloan Bot Arbitrage Finder",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "arbitrage",
+    "bot",
+    "trading-bot",
+    "trading"
+  ],
+  "author": "supercoolx",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "colors": "^1.4.0",
+    "console-table-printer": "^2.11.0",
+    "inquirer": "^8.2.4"
+  }
+}
